@@ -1,0 +1,17 @@
+@import 'slick';
+@import 'slick-theme';
+
+.gallery {
+  background-color: #000;
+
+  .caption {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 8px 16px;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

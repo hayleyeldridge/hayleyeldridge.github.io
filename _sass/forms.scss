@@ -1,0 +1,28 @@
+input, textarea {
+  background: #eee;
+  border: none;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 8px;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-field {
+  margin: 1em 0;
+}
+
+.form-field-help {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+.form-field-required {
+  color: $color-bg-primary;
+}

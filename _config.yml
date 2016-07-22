@@ -1,0 +1,15 @@
+detach: false
+host: 0.0.0.0
+port: 4000
+baseurl: ""
+
+# Site settings
+title: Hayley Eldridge
+description: Professional Model
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed

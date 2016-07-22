@@ -1,0 +1,20 @@
+<div class="gallery" id="gallery">
+  {% for photo in page.photos %}
+    <div>
+      <img src="/img/{{ photo.name }}" />
+      <div class="caption">{{ photo.description }}</div>
+    </div>
+  {% endfor %}
+</div>
+<script src="{{ '/js/slick.min.js' | prepend: site.baseurl }}"></script>
+<script>
+  $('#gallery').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    speed: 375
+  });
+  $('#gallery .slick-active').focus();
+</script>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="page" style="min-height: 1088px;">
+    <img class="page-image" src="/img/bg-home.png" />
+    {% include navbar.html %}
+    <div class="indent-left page-header">
+      <h1>{{ site.title }}</h1>
+      <p class="subtitle">Professional Model</p>
+    </div>
+    <div class="indent-left page-body">
+      {{ content }}
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+</html>
