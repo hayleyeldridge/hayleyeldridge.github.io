@@ -1,6 +1,20 @@
 .social-links {
+  margin: -6px;
+  overflow: hidden;
+
+  a {
+    float: left;
+    opacity: 0.2;
+    padding: 6px;
+  }
+
+  a:hover {
+    opacity: 0.38;
+  }
+
   img {
-    height: 48px;
-    width: 48px;
+    display: block;
+    height: 36px;
+    width: 36px;
   }
 }
